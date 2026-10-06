@@ -1,0 +1,20 @@
+# Chrome 运行环境与登录态（体积可达数百 MB，含账号凭证）
+browser_runtime/
+
+# 运行日志与候选人数据导出
+logs/
+
+# 已联系候选人指纹（含候选人隐私数据）
+contacted_fingerprints.json
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 本地配置（含 API Key）
+boss_recruiter_cfg.json
+
+# 编辑器 / 工具本地配置
+.claude/
+.vscode/
+.idea/

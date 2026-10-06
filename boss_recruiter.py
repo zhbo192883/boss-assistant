@@ -280,7 +280,7 @@ class ToolTip:
 class App:
     def __init__(self, root):
         self.root = root
-        self.root.title('星途招聘助手')
+        self.root.title('你的boss助手')
 
         self.browser = None
         self.page = None
@@ -378,7 +378,7 @@ class App:
         header.pack(fill='x')
         header.pack_propagate(False)
         tk.Label(
-            header, text='星途招聘助手',
+            header, text='你的boss助手',
             font=('微软雅黑', 17, 'bold'),
             fg='white', bg='#1e1e2e'
         ).pack(anchor='w', padx=24, pady=(14, 2))
